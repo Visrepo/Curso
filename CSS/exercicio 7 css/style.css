@@ -1,0 +1,123 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+}
+nav{
+   background-color: rgba(5, 5, 216, 0.767);
+   height: 60PX;
+   padding-right: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+}
+h2{
+    text-align: left;
+    margin-left: 5px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    }
+section{
+    /*background-color: rgba(255, 166, 0, 0.589);*/
+    display: flex;
+  justify-content: center;
+  
+}
+section div{
+    width:200px;
+    height:auto;
+    margin: 30px;
+    margin-bottom: 10px;
+
+}
+section div p{
+    padding-left: 0;
+    padding-right: 0;
+    margin:0;
+}
+
+.izq{
+ text-align: left;
+}
+.margintop{
+       margin-top: 50%;
+   }
+   body{
+       width: 1024px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+    nav a{
+    color: white;
+    
+   }
+   nav>div{
+       margin-left: 10px;
+       width :auto+10px;
+       height: auto+10px; 
+       }
+   nav>div :hover{
+        background-color:rgb(255, 255, 255);
+        border-radius: 2px;
+        padding: 3px;
+        color: rgba(0, 0, 255);
+        }
+        section div img{
+            width: 200px; 
+            height: 150px;
+        }
+
+article{
+    display: flex;
+    background-color: rgba(45, 45, 201, 0.418);
+   justify-content: right;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-right: 10px;
+  
+}
+article div{
+    width: 50%;
+    
+}
+article img{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+}
+article img, p{
+
+     
+}
+h3{
+    height: 40px;
+    color: white;
+    background-color:    rgba(5, 5, 216, 0.884);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 0;
+}
+
+h4{
+    margin-bottom: 0;
+}
+      footer>div{
+    display: flex;
+      }    
+#contacto{
+    background-color: rgba(5, 5, 216, 0.548);
+}
+#admin{
+    height: 70px;
+    background-color: rgb(14, 14, 128); 
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.856);
+}
+#correios, #telefonos{
+       margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
