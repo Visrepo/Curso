@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<script>
+        let e= "enter"
+        let i="imes"
+        let a= "ai"
+        let o="ober"
+        let u="ufat"
+        let hola;
+        //let textoCodificado;
+ 
+    //teclee o "codificar()" no Consola do navegador si desea codificar um mesaje
+        function codificar()
+    {
+            let acodificar=prompt("Teclee o texto para codificar").split("")
+        cant=acodificar.length
+        for(let au=0;au<cant;au++)
+        {
+            switch (acodificar[au])
+            {
+            case "e": acodificar[au]=e; break
+            case "i": acodificar[au]=i; break
+            case "a": acodificar[au]=a; break
+            case "o": acodificar[au]=o; break
+            case "u": acodificar[au]=u; break
+            }
+        
+        }
+      console.log (acodificar.join(""))
+     
+   
+    }
+//teclee o "decodificar()" no Consola do navegador si desea decodificar um mesaje
+function decodificar()
+    {
+      let decodificar= (prompt("insira texto para decodificar"));//.split(" ")
+      
+     decodificar= decodificar.replaceAll('enter', 'e');
+     decodificar= decodificar.replaceAll('imes', 'i');
+     decodificar= decodificar.replaceAll('ai', 'a');
+     decodificar= decodificar.replaceAll('ober', 'o');
+     decodificar= decodificar.replaceAll('ufat', 'u');
+          
+       console.log(decodificar);
+       
+     
+   
+    }
+
+</script>
+</head>
+<body>
+ <h1 style="text-align:center; padding-top: 2%;">Codificar e Decodificar Texto ( accesar em Consola ) <em>Decodificar() || Codificar()</em> </h1>
+</body>
+</html>
