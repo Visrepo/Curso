@@ -172,6 +172,24 @@ h5{
 .alingflex22{
     transform: translate(520px, -230px);
 }
+.alingflex23{
+    transform: translate(720px, -400px);
+}
+.alingflex24{
+    transform: translate(720px, -375px);
+}
+.alingflex25{
+    transform: translate(1070px, -540px);
+}
+.alingflex26{
+    transform: translate(1070px, -520px);
+}
+.alingflex27{
+    transform: translate(1450px, -685px);
+}
+.alingflex28{
+    transform: translate(1450px, -660px);
+}
 main #rect3 div p{
     font-weight: 600;
     font-size: 13px;
