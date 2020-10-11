@@ -1,0 +1,220 @@
+ html{
+    background-color: rgb(206, 201, 201);
+    font-family: 'Segoe UI';
+    }
+    #contenedor{
+    width: 1920px;
+    height: auto;
+    /*background-color: green;*/
+   background-color: #FFFFFF;
+    *opacity: 1px;
+    margin: auto;
+}    
+header{
+    height: 1150px;
+}
+#rect1{
+    display: flex;
+    width: 1919px;
+    height: 67px;
+    background-color: #183030;
+    
+    
+    }
+    .circulo{
+        margin-top: 0.2%;
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        transform: translateX(554px);
+       border: solid  2px rgba(221, 221, 221, 0.623);    
+    }
+    .nav{
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: right;
+        transform: translateX(820px);
+        padding-left: 2%;
+        
+        }
+    .circulo2{
+        /*display: flex;*/
+        border-radius: 50%;
+        width: 260px;
+        height: 260px;
+        transform: translate(554px, -150px);
+        box-shadow: 0px 0px 10px rgb(99, 99, 99) inset;	
+        /*box-shadow: 6px 6px 10px rgb(41, 41, 41);*/
+    }
+    .circulopeque{
+        /*display: flex;*/
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        transform: translate(290px, -110px);
+        border: solid 3px rgba(81, 81, 81, 0.301);
+        box-shadow: 3px 3px 5px rgb(81, 81, 81);
+        margin-left: 15px;
+    }
+ 
+    a{
+       font-weight: bold;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 17px;
+                      
+    }
+ 
+ h1{
+     font-size: 55px;
+     color: #686868;
+     font-weight: bold;
+     transform: translate(848px, -300px);
+ }
+ h2{
+    font-size: 34px;
+    color: #707070;
+    font-weight: lighter;
+    font-style: italic;
+    transform: translate(860px, -340px);
+}
+h3{
+    font-size: 34px;
+    color: #707070;
+    font-weight: bold;
+    transform: translate(860px, -320px);
+}
+header p{
+    width: 518px;
+    height: auto;
+    line-height: 33.81px;
+    font-size: 21px;
+    color: #707070;
+    transform: translate(860px, -320px);
+
+}
+#rect2{
+    width: 1919px;
+    height: 353px;
+    background-color: #DEDEDE;
+}
+#rect3{
+    width: 1919px;
+    height: 353px;
+    background-color: #434343;
+}
+#rect4{
+    width: 1919px;
+    height: 518px;
+    background-color: #F2F2F2;
+}
+#rect5{
+    width: 1919px;
+    height: 609px;
+    background-color: #000000;
+}
+.rectpeque{
+    width: 8px;
+    height: 66px;
+    background-color: #000000;
+    
+}
+#peque1{
+    transform: translate(500px, 143px);
+}
+#peque2{
+    transform: translate(500px, -130px);
+}
+  
+h4{
+    font-size: 55px;
+    font-weight: lighter;
+    color: #707070; 
+    transform: translate(490px, -100px);
+}
+main div p{
+    font-weight: 600;
+    font-size: 13px;
+    color: #707070;
+    line-height: 5.81px;
+}
+.alingflex1{
+    transform: translate(520px, -140px);
+}
+.alingflex2{
+    transform: translate(520px, -210px);
+}
+/*rect 3--------------------------------------------*/
+.rectpeque2{
+    width: 8px;
+    height: 66px;
+    background-color: #d8d8d8;
+    
+}
+#peque21{
+    transform: translate(500px, 143px);
+}
+#peque22{
+    transform: translate(500px, -160px);
+}
+  
+h5{
+    font-size: 55px;
+    font-weight: lighter;
+    color: #707070; 
+    transform: translate(490px, -100px);
+}
+.alingflex21{
+    transform: translate(520px, -175px);
+}
+.alingflex22{
+    transform: translate(520px, -230px);
+}
+main #rect3 div p{
+    font-weight: 600;
+    font-size: 13px;
+    color: #999999;
+    line-height: 5.81px;
+}
+
+#cir{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+background-color:  #303030;
+transform: translate(465px, -400px);
+border: solid 4px;
+border-color: #999999;
+}
+
+#cir:hover{
+    --border-color:green;
+    --hola:
+}
+#cir:active{
+    border-color: var(--border-color);
+    
+}
+.prorect{
+    width: 260px;
+    height: 335px;
+    background-color: #FFFFFF;
+    box-shadow:0px, 3px, 6px, #00000029;
+    border-radius: 5px;
+}
+.prorect img{
+    width: 231.86px;
+    height: 129.1px;
+    border: 1px solid #707070;
+}
+h6{
+    width: 167px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: #707070;
+    text-align: left;
+}
