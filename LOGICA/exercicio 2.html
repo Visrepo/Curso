@@ -1,0 +1,54 @@
+<script>
+
+//var lista=["d","a","c","b"]
+const class1 = ['yasmin', 'isadora', 'benedita', 'brenda', 'luiza', 'fatima', 'caio', 'teresinha', 'hugo', 'zeca', 'catarina', 'emanuel', 'marcelo', 'claudio', 'marina', 'isabela', 'anthony', 'rebeca', 'filipe', 'laís', 'vinicius', 'helena', 'elisa', 'rodrigo', 'geraldo', 'yuri', 'marcio']
+const class2 = ['benedita', 'elisa', 'emanuel', 'rodrigo', 'filipe', 'marcio', 'teresinha', 'laís', 'vinicius', 'marina', 'catarina', 'luiza', 'marcelo', 'rebeca', 'hugo', 'geraldo', 'zeca', 'caio', 'anthony', 'yasmin', 'claudio']
+const class3 = ['isadora', 'isabela', 'laís', 'claudio', 'catarina', 'zeca', 'teresinha', 'emanuel', 'marcio', 'fatima', 'rodrigo', 'luiza', 'brenda', 'marina', 'marcelo', 'benedita', 'rebeca', 'filipe', 'helena', 'elisa', 'hugo', 'geraldo']
+
+function ordenar(lista) {
+    if (lista.length <= 1){
+      //  console.log("se cumplio la condicion")
+        return lista
+    }  
+    const pivot=lista[0]
+    let isquierda=[]
+    let derecha=[]
+
+for (let i=1; i < lista.length; i++){
+    lista[i]> pivot ? isquierda.push(lista[i]) : derecha.push(lista[i]) 
+
+    //console.log(lista[i]) 
+}
+    //console.log("arreglo de: "+lista.length)
+    //console.log("isquierda: "+isquierda)
+    //console.log("derecha: "+derecha)
+    //console.log("pivot: "+pivot)
+return ordenar(isquierda).concat(pivot,ordenar(derecha))
+}
+function orden_inverso(lista){
+    return ordenar(lista).reverse()
+}
+console.log("class1", "class2", "class3")
+function ausencias(listareference,listhoje){
+var ausentes=[]
+let cant
+
+    for(let alumno of listareference){
+    var id=listhoje.indexOf(alumno)
+    if (id===-1)
+     ausentes.push(alumno +" :ausente")
+    }
+   if(ausentes!="")
+    return ausentes
+   else console.log("todos presentes")
+
+}
+
+console.log("Class No.1: " + ordenar( class1))
+console.log("Class No.2: " + ordenar(class2))
+console.log("Class No.3: " + ordenar( class3))
+console.log("orden inverso: \n")
+console.log("Class No.1:" + orden_inverso(class1))
+console.log("Class No.2:" + orden_inverso(class2))
+console.log("Class No.3:" + orden_inverso(class3))
+</script>
