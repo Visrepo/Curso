@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    nome= prompt("Escreva seu nome por favor")
+    sobrenome= prompt('Bem-vindo '+ nome+ ", e seu sobrenome qual é? ")
+    edade=prompt(nome +" "+ sobrenome+ " pode-nos dizer quantos anos voce tem?")
+    participacao=prompt(edade+ ' anos? Beleza!, quieres incribirte en el curso?',"Escreva sim ou Nao")
+    
+    if (edade!==undefined)
+    Number(edade)
+    
+    if (edade>18)
+    console.log ( "Ola " + nome+ " "+ sobrenome+ ` voce tem a edade perfeita (${edade} anos) para participar do nosso curso`)
+    else console.log (edade+ ' anos? Beleza!,'+nome+' '+sobrenome+ ' voce tem tudo um futuro pela frente')
+    
+    let DadosVisitante={
+        Nome: nome,
+        Sobrenome: sobrenome,
+        Edade: edade,
+        Participacao_Do_Curso: participacao 
+    }
+    
+    console.table (DadosVisitante)
+    
+    </script>
+</body>
+</html>
