@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let nome=[]
+    let sobrenome=[]
+    let edade=[]
+    let mayor
+    for (i=0;i<3;i++)
+    {
+    nome[i]= prompt("Insira o nome da "+(i+1)+"a. perssoa")
+    sobrenome[i]= prompt('Bem-vindo '+ nome[i]+ ", e seu sobrenome qual é? ")
+    edade[i]=prompt(nome[i] +" "+ sobrenome[i]+ " pode-nos dizer quantos anos voce tem?")
+    if(edade[i]>edade[i-1] && i!==0)
+   mayor="A pessoa mais velha é " + nome[i]+" "+ sobrenome[i]+ " com "+ edade[i] +" anos de edade"
+   console.log((i+1)+"a. perssoa \n"+"- "+nome[i]+" "+sobrenome[i]+" edade: "+edade[i])
+    }
+    
+   
+    console.warn(mayor)
+    
+    
+    //participacao=prompt(edade+ ' anos? Beleza!, quieres incribirte en el curso?',"Escreva sim ou Nao")
+  
+    </script>
+</body>
+</html>
