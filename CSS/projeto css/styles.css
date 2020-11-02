@@ -67,7 +67,7 @@ header{
                       
     }
  
- h1{
+ header h1{
      font-size: 55px;
      color: #686868;
      font-weight: bold;
@@ -114,6 +114,7 @@ header p{
     width: 1919px;
     height: 609px;
     background-color: #000000;
+    padding-top: 50px;  
 }
 .rectpeque{
     width: 8px;
@@ -222,15 +223,6 @@ border-color: #999999;
     box-shadow:0px, 3px, 6px, #00000029;
     border-radius: 5px;
 }
-div #a{
-    transform: translate(500px, 100px);
-}
-div #b{
-    transform: translate(800px, -235px);
-}
-div #c{
-    transform: translate(1100px, -570px);
-}
 .prorect img{
     width: 231.86px;
     height: 129.1px;
@@ -245,10 +237,71 @@ h6{
     color: #707070;
     text-align: left;
 }
-#projectos{
-    transform: translate(500px, 50px);
-    font-size: 55px;
-    font-weight: lighter;
-   margin-bottom: 5px;
-   margin-top: 0px;
+#rect5 h1{
+color: white;
+font-weight: lighter;
+font-size: 55px;
+line-height: 73px;
+opacity: 1;
+height: 73px;
+transform: translate(490px);
+margin-top: 0px;
+}
+#rect5 p{
+    width: 400px;
+    font-size: 21px;
+    line-height: 28px;
+    color: #707070;
+    transform: translate(490px);
+         
+}
+br{
+    margin-top: 2px;
+}
+form{
+    transform: translate(988px, -200px);
+}
+
+label{
+    color: white;
+}
+.input{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #585858;
+    color: white;
+    width: 120px;
+    height: 40px;
+    transform: translate(130px);
+    border-radius: 5px;
+    border-color: transparent;
+    
+}
+#rect4 h1{
+  
+     color: #686868;
+     font-weight: lighter;
+     font-size: 55px;
+     line-height: 73px;
+     opacity: 1;
+    transform: translate(490px);
+    margin-top: 0;
+    padding-top: 40px;
+}
+#rect4 p{
+    font-size: 21px;
+    transform: translate(490px);
+    margin-bottom:40px;
+}
+#rect4 a{
+    color: rgb(37, 34, 3);
+    text-decoration: none;
+
+   
+}
+:disabled{
+        background-color: #c4c4c4;
 }

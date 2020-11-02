@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 <link rel="stylesheet" href="styles.css">
+<script src="scriptsAPI.js"></script>
 </head>
 <body>
 <div id="contenedor">
     <header>
         <nav id="rect1">
                 <img src="img/foto.jpg" alt="" class="circulo">
-                <div class="nav"><a href="">APRESENTAÇÃO</a></div>
-                <div class="nav"><a  href="">FORMAÇÃO</a></div>
-                <div class="nav"><a  href="">EXPERIÊNCIA</a></div>
+                <div class="nav"><a href="#banner">APRESENTAÇÃO</a></div>
+                <div class="nav"><a  href="#rect2">FORMAÇÃO</a></div>
+                <div class="nav"><a  href="#rect3">EXPERIÊNCIA</a></div>
                 <div class="nav"><a  href="">PROJETOS</a></div>
-                <div class="nav"><a  href="">FALE COMIGO!</a></div>
+                <div class="nav"><a  href="#rect5">FALE COMIGO!</a></div>
         </nav>
         <div id="banner">
                 <img src="img/banner.jpg" alt="">
@@ -53,7 +54,7 @@
                     
             <div id="peque21" class="rectpeque2"></div>
                 
-                <h5>Experiência</h5>
+                <h5 id="EXPERIÊNCIA">Experiência</h5>
                 <div class="alingflex21">
                     <p id="a">2020-ATUAL</p>
                     <p style="font-size:21px;"> <strong>Galbanizador</strong></p>
@@ -83,55 +84,42 @@
                         </div>
                         <div class="alingflex26">
                             <p>Março/2010-Janeiro/2013</p>
-                            <p style="font-size:21px;"> <strong>Chefe do Segurança Informatica</strong></p>
+                            <p style="font-size:21px;"> <strong>Administrador de redes</strong></p>
                             <p>Hospital Clínico Quirúrgico Celia Sanchez Manduley</p>
-                        </div>
-                            <div class="alingflex27">
-                                <p id="a">Fevereiro/2013 -Fevereiro/2017</p>
-                                <p style="font-size:21px;"> <strong>Informático do chefe do MMCVEN</strong></p>
-                                <p>Misión Médica Cubana en Venezuela</p>
-                            </div>
-                            <div class="alingflex28">
-                                <p>Março/2010-Janeiro/2013</p>
-                                <p style="font-size:21px;"> <strong>Chefe do Segurança Informatica</strong></p>
-                                <p>Hospital Clínico Quirúrgico Celia Sanchez Manduley</p>
-                            </div>
+                        </div>                            
                 <!--<div id="cir"></div>-->        
             
         </div>
-        <div id="rect4">
-            <p id="projectos">Projetos</p>
-            <div id="a" class="prorect">
-                <img src="" alt="">
-                <h6>Título do Projeto</h6>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-                <button>boton 1</button>
-                <button>boton 2</button>
-             
-            </div>
-                <div id="b" class="prorect">
-                    <img src="" alt="">
-                    <h6>Título do Projeto</h6>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-                    <button>boton 1</button>
-                    <button>boton 2</button>
-                
-                </div>
-                    <div id="c" class="prorect">
-                        <img src="" alt="">
-                        <h6>Título do Projeto</h6>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-                        <button>boton 1</button>
-                        <button>boton 2</button>
-                    
-                    </div>
+         <div id="rect4">
+           <h1>Repositorios do GitHub</h1>
+           
+            
             
 
         </div>
         <div id="rect5">
-            
+            <div>
+                <h1>Contacto</h1>
+                <p>Quer entrar em contato comigo?</p>
+                <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </p>
+                <!--<p>Você também pode me encontrar nas seguintes redes sociais:</p>-->
+            </div>
+            <div>
+                <form>
+                    <label for="Nome">NOME <br>
+                    <input class="input" type="text" id="Nome" name="Nome"  required></label><br>
+                    <label for="Nome">E-MAIL <br>
+                    <input class="input" type="text" id="E-MAIL" name="E-MAIL"  required></label><br>
+                    <label for="Nome">ASSUNTO <br>
+                    <input class="input" type="text" id="Assunto" name="ASSUNTO" required></label><br>
+                    <label for="Nome">MENSAGEM <br>
+                    <textarea class="input" style="height:120px;" name="MENSAGEM" id="Messagem" cols="47" rows="10" required></textarea></label><br>     
+                    <input class="btn" type="submit" id="btn1" value="ENVIAR" >
+                </form>
+            </div>
         </div>
     </main>
 </div>
+<script src="scriptsValidacao.js"></script>
 </body>
 </html>
