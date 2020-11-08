@@ -1,25 +1,139 @@
-html{
-    width: 400px;
+/*-----------FONT-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*-----------------COLORES------------*/
+:root {
+    --verde: #4f6d7a;
+    --azulm: #4a6fa5;
+    --azulc: #a8dadc;
+    --azulcc:rgb(220, 242, 243);
+    --azulf: #166088;
+    --azulff: #07354e;
+    --marron: #3d2c2e;
+    }
+body{
+    width: 1024px;
     margin: auto;
-
+    font-family: 'Roboto', sans-serif;
+    
 }
-
+/*--------------LOGIN--------------------*/
 div label{
    display:block;
    margin-bottom: 15px;
-   
-  
 }
 #contenedor{
     
+    margin-top:40px;
     text-align: center;
-    background-color: rgb(252, 234, 212);
+    background-color:var(--azulcc);
     width: 190px;
     height: auto;
     padding-top: 15px;
-    margin-left: 100px;
     border-radius: 10px;
     border-color: rgb(56, 56, 32);
+    border-width: 2px;
     border-style: solid;
+    position: absolute;
+    left: 40%;
+    right: 40%;
     
+}
+/*-----------TUTORIAL-----------------*/
+#tutorial{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(56, 56, 32);
+    background-color:var(--azulcc);
+    border-style: solid;
+    position: absolute;
+   top: 10%;
+   right: 35%;
+   left: 35%;
+   opacity: 0;
+   
+}
+#tutorial h1{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-left: 5px;
+    font-size: 20px;
+}
+#tutorial p{
+   margin: 5px;
+}
+#tutorial input{
+    background-color:var(--azulff);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    }
+input+input{
+    margin-right: 40px;
+  
+    
+}
+/*-------CONTENEDOR------*/
+#contenedor{
+   /*position: absolute;*/
+   top:0;
+}
+/*-----------NAVEGACION-----------------*/
+#navegacion{
+    width: 1024px;
+    height: 70px;
+    background-color: var(--azulf);
+    display: flex;
+    align-items: center;
+    }
+#navegacion img{
+    margin: 10px;
+    width: 35px;
+    height: 32px;
+}
+#navegacion p{
+    font-size: 30px;
+    
+    color: var(--azulc);
+}
+#botones{
+   width: 800px;
+  text-align: right;
+   
+
+}
+#botones a{
+    color: white;
+    text-decoration: none;
+}
+#botones a:hover{
+    color:var(--azulc);
+    text-decoration: none;
+}
+#botones a+a{
+    margin-left: 5px;
+}
+
+/*-----------MENU-----------------------*/
+#menu{
+    margin: 0;
+    padding-left: 0;
+    width: 1024px;
+    height: 800px;
+    background-color: whitesmoke;
+}
+#menu #columna1{
+    width: 40%;
+    border-color:var(--marron);
+    background-color: #3d2c2e;
+}
+/*-----------PIE DE PAGINA--------------*/
+#pie{
+    width: 1024px;
+    height: 80px;
+    background-color: var(--azulff);
 }
