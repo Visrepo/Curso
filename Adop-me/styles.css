@@ -1,0 +1,25 @@
+html{
+    width: 400px;
+    margin: auto;
+
+}
+
+div label{
+   display:block;
+   margin-bottom: 15px;
+   
+  
+}
+#contenedor{
+    
+    text-align: center;
+    background-color: rgb(252, 234, 212);
+    width: 200px;
+    height: 400px;
+    padding-top: 15px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-color: rgb(56, 56, 32);
+    border-style: solid;
+    
+}
