@@ -43,7 +43,7 @@ body{
 }
 #menu a:hover{
    color:var(--azulff);
-   font-weight: 600;
+   /* font-weight: 600; */
 }
 #azul{
     width: 100%;
