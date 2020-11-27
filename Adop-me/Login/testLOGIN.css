@@ -1,0 +1,221 @@
+/*-----------FONT-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*-----------------COLORES------------*/
+:root {
+    --verde: #4f6d7a;
+    --azulm: #4a6fa5;
+    --azulc: #a8dadc;
+    --azulcc:rgb(220, 242, 243);
+    --azulf: #166088;
+    --azulff: #07354e;
+    --marron: #3d2c2e;
+    }
+body{
+    width: 1024px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--azulf);
+}
+/*--------------LOGIN--------------------*/
+div label{
+   display:block;
+   margin-bottom: 15px;
+}
+#contenedor{
+    display: block;
+    margin-top:150px;
+    padding-top: 10px;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    /* top:0; */
+    text-align: center;
+    
+    width: 250px;
+    height: 370px;
+  
+    background-color:white;
+    border-radius: 20px;
+    /* border:1px solid #3d2c2e; */
+    box-shadow: 1px 1px 20px #000;
+     z-index: 1; 
+}
+#logo{
+    font-size: 25px;
+    margin-bottom: 35px;
+
+}
+#usuario, #senha{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+    /* border: 1px solid; */
+    /* outline: none; */
+    background-color:var(--azulc);
+    text-align: center;
+    /* padding-top: 5%; */
+}
+#TxtUsuario, #TxtSenha{
+    width: 160px;
+    height: 35px;
+    border-style: none;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+}
+#enviar{
+    width: 80px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border-radius: 20px;
+   
+    border: 2px solid var(--azulff);
+    background-color: var(--azulff);
+   
+}
+#BtEnviar{
+    margin-top: 1px;
+    height: 33px;
+    width: 78px;
+    /* background-color:white; */
+    border-style: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+     background: transparent; 
+}
+#login{
+    margin-bottom: 20px;
+}
+#registrarse{
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--marron);
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+}
+#registrarse:hover{
+    color: var(--azulff);
+    /* margin-bottom: 0px;
+    font-size: 20px; */
+}
+#comentario{
+    margin-top: 0px;
+    font-size: 13px;
+}
+/* ----------------------------REGISTRO------- */
+#registro{
+   
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:130px;
+    padding-bottom: 20px;
+    width: 450px;
+    height: 400px;
+    background-color:white;
+    border-radius: 20px;
+    position: absolute;
+    left: 30%;
+    right: 40%;
+    /* border:1px solid #3d2c2e; */
+    box-shadow: 1px 1px 20px #000;
+    display: none; 
+    z-index:2; 
+}
+#registro p{
+font-size: 20px;
+margin-bottom: 5px;
+color: var(--azulff);
+margin-left: 100px;
+
+}
+
+.inputText{
+    padding-left: 10px;
+    font-size: 18px;
+    width: 180px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: var(--azulc);
+ }
+ .inputButton{
+    font-size: 16px;
+    width: 120px;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid var(--azulff);
+    background-color: var(--azulff);
+ }
+ .inputButton:hover{
+    color: var(--azulcc);
+    
+ }
+
+.inputEndereco{
+    font-size: 18px;
+    padding-left: 15px;
+    width: 380px;
+    height: 60px;
+    outline: none;
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: var(--azulc);
+    border-radius: 10px;
+}
+.inputCSenha{
+    padding-left: 10px;
+    font-size: 18px;
+    width: 180px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-left: 205px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--azulc);
+}
+/* .formatDIV{
+    width: 400px;
+    height: 35px;
+    padding:0;
+    margin: 0;
+    margin-right: 5px;
+    
+} */
+form{
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: var(--azulf);
+    border: 0px;
+    margin-bottom: 15px;
+}
+#cerrar{
+    width: 30px;
+    height: 30px;
+   margin-left: 100px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: var(--azulff);
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
