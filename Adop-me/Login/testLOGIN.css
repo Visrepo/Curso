@@ -28,65 +28,42 @@ div label{
     position: absolute;
     left: 40%;
     right: 40%;
-    /* top:0; */
     text-align: center;
-    
     width: 250px;
     height: 370px;
   
     background-color:white;
     border-radius: 20px;
-    /* border:1px solid #3d2c2e; */
     box-shadow: 1px 1px 20px #000;
-     z-index: 1; 
+    z-index: 1; 
 }
 #logo{
     font-size: 25px;
     margin-bottom: 35px;
 
 }
-#usuario, #senha{
+#TxtUsuario, #TxtSenha{
     width: 200px;
     height: 40px;
     margin-bottom: 15px;
-    margin-left: 25px;
-    border-radius: 20px;
-    /* border: 1px solid; */
-    /* outline: none; */
-    background-color:var(--azulc);
-    text-align: center;
-    /* padding-top: 5%; */
-}
-#TxtUsuario, #TxtSenha{
-    width: 160px;
-    height: 35px;
+    padding-left: 15px;
     border-style: none;
     outline: none;
     font-size: 18px;
-    background: transparent;
-}
-#enviar{
-    width: 80px;
-    height: 35px;
-    margin-bottom: 10px;
-    margin-left: 80px;
     border-radius: 20px;
-   
-    border: 2px solid var(--azulff);
-    background-color: var(--azulff);
-   
-}
+    background-color:var(--azulc);
+   }
 #BtEnviar{
-    margin-top: 1px;
-    height: 33px;
-    width: 78px;
-    /* background-color:white; */
+    margin-top: 5px;
+    height: 40px;
+    width: 85px;
     border-style: none;
     outline: none;
     border-radius: 20px;
     color: white;
-     background: transparent; 
-}
+    background-color: var(--azulff);
+    font-size: 14px;
+    }
 #login{
     margin-bottom: 20px;
 }
@@ -101,8 +78,6 @@ div label{
 }
 #registrarse:hover{
     color: var(--azulff);
-    /* margin-bottom: 0px;
-    font-size: 20px; */
 }
 #comentario{
     margin-top: 0px;
@@ -110,8 +85,6 @@ div label{
 }
 /* ----------------------------REGISTRO------- */
 #registro{
-   
-    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
     margin-top:130px;
@@ -123,7 +96,6 @@ div label{
     position: absolute;
     left: 30%;
     right: 40%;
-    /* border:1px solid #3d2c2e; */
     box-shadow: 1px 1px 20px #000;
     display: none; 
     z-index:2; 
@@ -188,14 +160,6 @@ margin-left: 100px;
     margin-bottom: 5px;
     background-color: var(--azulc);
 }
-/* .formatDIV{
-    width: 400px;
-    height: 35px;
-    padding:0;
-    margin: 0;
-    margin-right: 5px;
-    
-} */
 form{
     text-align: center;
 }
