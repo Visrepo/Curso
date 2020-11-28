@@ -90,8 +90,8 @@ div label{
     justify-content: center;
     margin-top:10%;
     padding-bottom: 20px;
-    width: 450px;
-    height: 400px;
+    width: 305px;
+    height: 550px;
     background-color:white;
     border-radius: 20px;
     position: absolute;
@@ -105,24 +105,26 @@ div label{
 }
 #registro p{
 font-size: 20px;
+margin-top: 10px;
 margin-bottom: 5px;
+margin-left: 35px;
 color: var(--azulff);
-margin-left: 100px;
+/* margin-left: 100px; */
 
 }
-
 .inputText{
     padding-left: 10px;
     font-size: 18px;
-    width: 180px;
+    width: 190px;
     height: 35px;
     outline: none;
     border: none;
-    border-radius: 10px;
-    margin: 5px;
+    border-radius: 20px;
+    /* margin: 5px; */
     background-color: var(--azulc);
  }
  .inputButton{
+    margin-top: 50px;
     font-size: 16px;
     width: 120px;
     height: 45px;
@@ -139,8 +141,8 @@ margin-left: 100px;
 
 .inputEndereco{
     font-size: 18px;
-    padding-left: 15px;
-    width: 380px;
+    /* padding-left: 15px; */
+    width: 270px;
     height: 60px;
     outline: none;
     background: transparent;
@@ -151,14 +153,14 @@ margin-left: 100px;
     border-radius: 10px;
 }
 .inputCSenha{
-    padding-left: 10px;
+    /* padding-left: 10px; */
     font-size: 18px;
     width: 180px;
     height: 35px;
     outline: none;
     border: none;
     border-radius: 10px;
-    margin-left: 205px;
+    /* margin-left: 205px; */
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: var(--azulc);
@@ -172,17 +174,34 @@ hr{
     height: 5px;
     background-color: var(--azulf);
     border: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 #cerrar{
     width: 30px;
     height: 30px;
-   margin-left: 100px;
-    margin-top: 5px;
+   margin-left: 25px;
+    margin-top: 6px;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 50%;
     background-color: var(--azulff);
     color: white;
     font-weight: bold;
     outline: none;
+}
+#tamano{
+    margin-bottom: 10px;
+    vertical-align: center;
+    text-align: left;
+    padding-left: 15px;
+   width: 95%;
+    height: 40px;
+}
+#tamanoDiv{
+    margin-bottom: 10px;
+    vertical-align: center;
+    text-align: right;
+    padding-right: 10px;
+   width: 95%;
+    height: 40px;
+/* background-color: #3d2c2e;  */
 }
