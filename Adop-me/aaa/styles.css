@@ -11,6 +11,8 @@ html{
     background-color: cadetblue; 
 }
 #menu{
+    display: flex;
+    /* flex-wrap: wrap; */
     width: 100%;
     height: 50px;
     background-color: brown;
@@ -34,4 +36,11 @@ html{
     width: 100%;
     height: 150px;
     background-color: rgb(82, 80, 80); 
+}
+
+.tamaño{
+    height: 100%;
+    width: 50px;
+    background-color: darkgoldenrod;
+    margin-left: 2px;
 }
